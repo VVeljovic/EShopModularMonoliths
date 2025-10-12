@@ -1,3 +1,3 @@
 ﻿namespace Basket.Events;
 
-public sealed record ProductUpdatedDomainEvent(Product product) : IDomainEvent;
+public sealed record ProductUpdatedDomainEvent(Product Product) : IDomainEvent;

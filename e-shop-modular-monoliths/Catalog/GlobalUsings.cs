@@ -1,5 +1,4 @@
 ﻿global using Basket.Events;
-global using Basket.Models;
 global using Shared.Common;
 global using Shared.DDD;
 global using Catalog.Data;
@@ -7,3 +6,9 @@ global using Microsoft.EntityFrameworkCore;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.DependencyInjection;
 global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using MediatR;
+global using Catalog.Dtos;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
+global using Shared.Data;
+global using Catalog.Models;
+global using System.Reflection;

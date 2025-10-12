@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Diagnostics;
-using Shared.Data;
-
-namespace Catalog;
+﻿namespace Catalog;
 
 public static class CatalogModule
 {

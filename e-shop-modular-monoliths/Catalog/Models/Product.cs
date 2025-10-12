@@ -1,4 +1,4 @@
-﻿namespace Basket.Models;
+﻿namespace Catalog.Models;
 
 public class Product : AggregateRoot
 {
