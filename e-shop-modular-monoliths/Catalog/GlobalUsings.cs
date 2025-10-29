@@ -12,3 +12,4 @@ global using Microsoft.EntityFrameworkCore.Diagnostics;
 global using Shared.Data;
 global using Catalog.Models;
 global using System.Reflection;
+global using Mapster;

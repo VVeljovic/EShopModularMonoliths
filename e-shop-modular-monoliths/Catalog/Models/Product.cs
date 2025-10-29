@@ -12,7 +12,7 @@ public class Product : AggregateRoot
 
     public string ImageFile { get; private set; } = default!;
 
-    public decimal Price { get; private set; }
+    public decimal Price { get; private set; } = default;
 
     public static Result<Product> Create(Guid id, string name, string imageFile, string description, decimal price)
     {
